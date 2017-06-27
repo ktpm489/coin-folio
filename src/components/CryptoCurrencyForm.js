@@ -30,9 +30,9 @@ class CryptoCurrencyForm extends Component {
 			value: (+this.state.text).toFixed(6)
 		});
 
-    this.props.fetchDetailedData();
-		this.textInput.clear();
+    this.textInput.clear();
 		this.setState({text: ''});
+    this.props.fetchDetailedData();
 	}
 
 	render() {
