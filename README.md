@@ -9,7 +9,7 @@ This was a quick project, to test the possibilities of React Native.
 ## How I feel about React Native
 React native is really cool, and might be useful. Altough even is my simple application I saw some performance problems, and different behaviours in development vs. production version. For a higher-grade application I would go towards native solutions, but for smaller projects, in companies that are focused on the web, it is a really useful solution.
 
-## Testing Application
+## Using Application
 To test drive the app, you can use the coinfolio.apk i added to this repo.
 
 ## Bugs
