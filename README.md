@@ -11,6 +11,7 @@ React native is really cool, and might be useful. Altough even is my simple appl
 
 ## Testing Application
 To test drive the app, you can use the coinfolio.apk i added to this repo.
+Currently, I didn't build the iOS version. If there will be need for that, I will do it.
 
 ## Bugs
 - "Submit" currency button blocks waiting for api response
