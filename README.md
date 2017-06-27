@@ -14,3 +14,4 @@ To test drive the app, you can use the coinfolio.apk i added to this repo.
 
 ## Bugs
 - "Submit" currency button blocks waiting for api response
+- Icons not displaying

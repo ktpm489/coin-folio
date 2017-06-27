@@ -21,6 +21,8 @@ class CryptoCurrencyForm extends Component {
 	pickerItems = (item, i) => (<Picker.Item key={i} label={item.CoinName} value={item.Name} />)
 
 	buttonClicked() {
+    if (this.state.text == '') return false;
+
 		Keyboard.dismiss();
 
 		this.props.addOwnedCurrency({
@@ -63,7 +65,6 @@ class CryptoCurrencyForm extends Component {
 
 				<TouchableOpacity
           style={styles.button}
-          disabled={this.state.text.length < 1}
 					onPress={this.buttonClicked.bind(this)}>
 					<Text style={styles.buttonText}>SUBMIT</Text>
 				</TouchableOpacity>
